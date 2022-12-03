@@ -1,0 +1,111 @@
+﻿CREATE TABLE Persons(
+id INT PRIMARY KEY, 
+first_name NVARCHAR(50) NOT NULL,
+last_name NVARCHAR(50) NOT NULL,
+email NVARCHAR(50),
+gender NVARCHAR(50) NOT NULL,
+ip_address NVARCHAR(20),
+CONSTRAINT Check_Perso_first_name CHECK(first_name != '')
+);
+
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (1, 'Read', 'Stansall', 'rstansall0@java.com', 'Male', '117.116.147.177');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (2, 'Mandi', 'Kelshaw', 'mkelshaw1@mozilla.com', 'Female', '254.172.234.142');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (3, 'Dietrich', 'Lebrun', 'dlebrun2@globo.com', 'Male', '194.249.83.200');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (4, 'Anjanette', 'Minihan', 'aminihan3@pbs.org', 'Female', '120.222.53.121');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (5, 'Hurleigh', 'McGlade', 'hmcglade4@technorati.com', 'Male', '29.102.179.160');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (6, 'Nahum', 'McKeand', 'nmckeand5@home.pl', 'Male', '244.30.50.199');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (7, 'Tiler', 'Chitham', 'tchitham6@jugem.jp', 'Male', '18.160.208.17');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (8, 'Tad', 'Barwise', 'tbarwise7@goo.gl', 'Male', '104.20.245.56');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (9, 'Cointon', 'Leafe', 'cleafe8@mapquest.com', 'Male', '84.169.47.150');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (10, 'Haskell', 'Rival', 'hrival9@privacy.gov.au', 'Male', '215.238.77.205');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (11, 'Christyna', 'Eilert', 'ceilerta@utexas.edu', 'Female', '16.212.215.67');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (12, 'Clark', 'Mellmoth', 'cmellmothb@columbia.edu', 'Male', '62.104.40.91');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (13, 'Averill', 'Andrichak', 'aandrichakc@cnet.com', 'Male', '244.238.170.18');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (14, 'Hatti', 'Kuhnt', 'hkuhntd@bandcamp.com', 'Female', '209.83.175.131');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (15, 'Dave', 'Puttan', 'dputtane@wunderground.com', 'Male', '63.247.63.119');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (16, 'Brana', 'Baumber', 'bbaumberf@ow.ly', 'Female', '231.238.154.29');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (17, 'Aldous', 'Bly', 'ablyg@booking.com', 'Male', '6.21.74.159');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (18, 'Edvard', 'Puttnam', 'eputtnamh@bloomberg.com', 'Male', '228.26.249.54');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (19, 'Brandi', 'Casillis', 'bcasillisi@photobucket.com', 'Female', '189.195.177.78');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (20, 'Jamey', 'Carnachen', 'jcarnachenj@liveinternet.ru', 'Male', '50.132.6.13');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (21, 'Ilse', 'Oxford', 'ioxfordk@edublogs.org', 'Female', '249.55.63.157');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (22, 'Barr', 'Abbe', 'babbel@ask.com', 'Male', '36.2.245.127');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (23, 'Thom', 'Isabell', 'tisabellm@cafepress.com', 'Male', '159.171.113.198');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (24, 'Brynne', 'Withey', 'bwitheyn@usda.gov', 'Female', '22.17.36.247');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (25, 'Cordi', 'Pautard', 'cpautardo@elegantthemes.com', 'Agender', '176.248.94.64');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (26, 'Sheela', 'MacCaughen', 'smaccaughenp@de.vu', 'Female', '157.7.122.18');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (27, 'Brynne', 'Neubigin', 'bneubiginq@networksolutions.com', 'Female', '191.209.32.169');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (28, 'Marissa', 'Hanes', 'mhanesr@goo.gl', 'Female', '131.117.137.94');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (29, 'Ignace', 'Reilinger', 'ireilingers@dedecms.com', 'Male', '228.255.189.109');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (30, 'Shandeigh', 'Loosely', 'slooselyt@yahoo.co.jp', 'Female', '146.216.24.25');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (31, 'Arden', 'Aickin', 'aaickinu@bigcartel.com', 'Bigender', '201.63.170.209');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (32, 'Maurita', 'Mathevon', 'mmathevonv@amazon.co.uk', 'Female', '80.210.183.231');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (33, 'Burk', 'Chill', 'bchillw@posterous.com', 'Male', '238.14.132.243');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (34, 'Tessi', 'Bryant', 'tbryantx@photobucket.com', 'Female', '17.33.250.208');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (35, 'Faydra', 'Augustine', 'faugustiney@yandex.ru', 'Female', '123.246.25.10');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (36, 'Trisha', 'Escalero', 'tescaleroz@slashdot.org', 'Female', '45.203.124.181');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (37, 'Sybyl', 'Castledine', 'scastledine10@imdb.com', 'Female', '25.67.147.57');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (38, 'Tobi', 'Josefson', 'tjosefson11@wsj.com', 'Female', '31.195.178.89');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (39, 'Theodore', 'Skellern', 'tskellern12@stanford.edu', 'Male', '109.9.199.26');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (40, 'Rogers', 'Figure', 'rfigure13@imdb.com', 'Male', '211.178.200.212');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (41, 'Andie', 'Piatek', 'apiatek14@miitbeian.gov.cn', 'Male', '183.212.62.184');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (42, 'Cherry', 'Seeks', 'cseeks15@spotify.com', 'Female', '71.209.107.79');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (43, 'Aurelea', 'Gosnell', 'agosnell16@icq.com', 'Female', '29.247.170.45');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (44, 'Hestia', 'Werny', 'hwerny17@google.com.au', 'Female', '167.50.178.220');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (45, 'Zebulon', 'Dicty', 'zdicty18@columbia.edu', 'Male', '104.67.69.132');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (46, 'Sigmund', 'Brucker', 'sbrucker19@cdc.gov', 'Male', '7.125.46.149');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (47, 'Silvain', 'Durante', 'sdurante1a@nih.gov', 'Male', '56.16.128.249');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (48, 'Elvis', 'Colman', 'ecolman1b@ucoz.ru', 'Male', '251.130.19.228');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (49, 'Julita', 'Howcroft', 'jhowcroft1c@buzzfeed.com', 'Female', '210.182.204.178');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (50, 'Linc', 'Leyshon', 'lleyshon1d@icq.com', 'Male', '230.1.20.224');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (51, 'Lynde', 'Davidsson', 'ldavidsson1e@guardian.co.uk', 'Female', '252.67.114.117');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (52, 'Sterling', 'Penn', 'spenn1f@bloglines.com', 'Male', '233.190.128.145');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (53, 'Derward', 'MacHostie', 'dmachostie1g@gmpg.org', 'Male', '94.66.216.95');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (54, 'Nancey', 'Levicount', 'nlevicount1h@plala.or.jp', 'Female', '26.63.187.232');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (55, 'Honor', 'Brash', 'hbrash1i@house.gov', 'Female', '20.165.181.161');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (56, 'Madeleine', 'Litel', 'mlitel1j@nps.gov', 'Female', '187.97.35.232');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (57, 'Joe', 'Stadding', 'jstadding1k@princeton.edu', 'Male', '235.190.183.251');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (58, 'Iormina', 'Fierman', 'ifierman1l@is.gd', 'Female', '172.64.213.86');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (59, 'Melisent', 'Sidney', 'msidney1m@tripadvisor.com', 'Female', '91.189.147.32');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (60, 'Ware', 'Ridwood', 'wridwood1n@nature.com', 'Male', '246.92.68.89');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (61, 'Nola', 'Bakey', 'nbakey1o@51.la', 'Female', '160.126.78.24');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (62, 'Mathian', 'Patrickson', 'mpatrickson1p@tinypic.com', 'Male', '130.230.76.252');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (63, 'Willyt', 'Maypowder', 'wmaypowder1q@w3.org', 'Female', '9.72.146.37');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (64, 'Alasteir', 'Sayers', 'asayers1r@illinois.edu', 'Male', '46.9.98.231');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (65, 'Kathlin', 'Zelner', 'kzelner1s@abc.net.au', 'Bigender', '100.163.170.124');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (66, 'Hall', 'Garroway', 'hgarroway1t@nydailynews.com', 'Male', '216.153.223.193');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (67, 'Travus', 'Durning', 'tdurning1u@theguardian.com', 'Male', '91.193.92.40');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (68, 'Camila', 'Fernier', 'cfernier1v@cnet.com', 'Agender', '153.156.89.249');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (69, 'Alane', 'Rentelll', 'arentelll1w@si.edu', 'Female', '107.227.206.159');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (70, 'Denyse', 'Fraine', 'dfraine1x@liveinternet.ru', 'Agender', '255.46.89.122');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (71, 'Dennison', 'Sollowaye', 'dsollowaye1y@1und1.de', 'Male', '228.198.117.52');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (72, 'Augie', 'Druhan', 'adruhan1z@ucoz.com', 'Male', '100.16.89.131');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (73, 'Dianemarie', 'Bassett', 'dbassett20@etsy.com', 'Female', '199.154.27.210');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (74, 'Erma', 'Charpling', 'echarpling21@dion.ne.jp', 'Female', '240.214.32.203');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (75, 'Monti', 'Kinneally', 'mkinneally22@joomla.org', 'Male', '114.130.69.74');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (76, 'Averell', 'Sibbet', 'asibbet23@msu.edu', 'Male', '20.236.215.115');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (77, 'Britni', 'Overlow', 'boverlow24@yellowbook.com', 'Female', '91.115.61.3');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (78, 'Ignacio', 'Stillwell', 'istillwell25@nsw.gov.au', 'Male', '239.147.107.238');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (79, 'Lian', 'Galle', 'lgalle26@ucoz.com', 'Genderfluid', '143.2.32.61');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (80, 'Rea', 'Delucia', 'rdelucia27@economist.com', 'Female', '92.143.185.208');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (81, 'Crin', 'Lehrian', 'clehrian28@geocities.com', 'Female', '54.87.248.119');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (82, 'Katlin', 'Tokley', 'ktokley29@nps.gov', 'Female', '150.161.185.183');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (83, 'Roderich', 'Maruska', 'rmaruska2a@sciencedaily.com', 'Male', '249.180.20.209');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (84, 'Reagen', 'Cessford', 'rcessford2b@wikia.com', 'Male', '5.161.18.80');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (85, 'Erma', 'Kasper', 'ekasper2c@auda.org.au', 'Female', '175.233.204.154');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (86, 'Jerome', 'Kuhnke', 'jkuhnke2d@mapy.cz', 'Male', '168.21.142.79');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (87, 'Humphrey', 'Bissiker', 'hbissiker2e@house.gov', 'Polygender', '95.71.64.66');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (88, 'Geoff', 'Petriello', 'gpetriello2f@nbcnews.com', 'Male', '23.172.35.146');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (89, 'Sheffy', 'Dawidman', 'sdawidman2g@nba.com', 'Male', '147.118.225.183');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (90, 'Arny', 'Derham', 'aderham2h@google.com.br', 'Male', '203.242.156.63');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (91, 'Simon', 'Herkess', 'sherkess2i@pcworld.com', 'Male', '20.231.45.238');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (92, 'Ilise', 'Chilcott', 'ichilcott2j@loc.gov', 'Female', '231.105.136.82');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (93, 'Daria', 'Drew', 'ddrew2k@hugedomains.com', 'Female', '150.107.205.56');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (94, 'Tades', 'Phonix', 'tphonix2l@networksolutions.com', 'Male', '101.31.219.128');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (95, 'Reggie', 'Shaul', 'rshaul2m@yelp.com', 'Male', '199.50.236.3');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (96, 'Colene', 'Berk', 'cberk2n@latimes.com', 'Female', '5.224.18.83');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (97, 'Felic', 'Cranson', 'fcranson2o@studiopress.com', 'Male', '103.59.65.153');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (98, 'Xylia', 'Ceschelli', 'xceschelli2p@sina.com.cn', 'Female', '133.175.98.44');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (99, 'Lydie', 'Tomlin', 'ltomlin2q@dailymotion.com', 'Female', '95.214.53.217');
+insert into Persons (id, first_name, last_name, email, gender, ip_address) values (100, 'Kayla', 'Walcar', 'kwalcar2r@vk.com', 'Female', '196.118.124.156');
+
